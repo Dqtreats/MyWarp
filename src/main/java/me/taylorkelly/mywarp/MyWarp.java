@@ -396,7 +396,7 @@ public class MyWarp extends JavaPlugin {
                         messages.add(ChatColor.RED + "/warp search [query]" + ChatColor.WHITE + "  -  Search for " + ChatColor.GRAY + "[query]");
                     }
                     if (WarpPermissions.give(player)) {
-                        messages.add(ChatColor.RED + "/warp give [player] [name[" + ChatColor.WHITE + "  -  Give " + ChatColor.GRAY + "[player]"
+                        messages.add(ChatColor.RED + "/warp give [player] [name]" + ChatColor.WHITE + "  -  Give " + ChatColor.GRAY + "[player]"
                                 + ChatColor.WHITE + " your " + ChatColor.GRAY + "[name]");
                     }
                     if (WarpPermissions.invite(player)) {
